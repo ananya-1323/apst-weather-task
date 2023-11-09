@@ -1,0 +1,71 @@
+
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .search {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .top {
+    margin-bottom: 20px;
+  }
+  
+  .temp h1 {
+    font-size: 3em;
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-box {
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 0 10px;
+}
+
+.location {
+  font-size: 1.5em; 
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.large {
+  font-size: 1.5em; 
+}
+
